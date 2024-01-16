@@ -33,7 +33,7 @@ WebUI.click(findTestObject('NormalCase_hitung13jt/15th'), FailureHandling.STOP_O
 
 WebUI.click(findTestObject('NormalCase_hitung13jt/button_Hitung'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
 
