@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Step3WithExcel</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>5d51c470-c266-4908-a0df-2fdb08c37e79</testSuiteGuid>
+   <testCaseLink>
+      <guid>ac5e2fba-05e2-4b10-a0d7-1861c6540489</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HitungWithExcel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>37ade696-a9b8-4fda-8f23-9515797b6bcf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_input/Data_input</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>37ade696-a9b8-4fda-8f23-9515797b6bcf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>gaji</value>
+         <variableId>7e94b275-ff46-47ee-bd32-a8a5806c6d72</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>37ade696-a9b8-4fda-8f23-9515797b6bcf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>cost</value>
+         <variableId>d8df9da7-3c18-4650-9c0e-9f1d586d424a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
