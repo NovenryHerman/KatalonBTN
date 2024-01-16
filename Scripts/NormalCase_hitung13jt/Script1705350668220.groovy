@@ -23,13 +23,13 @@ WebUI.setText(findTestObject('NormalCase_hitung13jt/inputgaji'), '13000000')
 
 WebUI.setText(findTestObject('NormalCase_hitung13jt/inputluar'), '1500000')
 
-WebUI.delay(2)
-
-WebUI.takeFullPageScreenshot()
-
 WebUI.click(findTestObject('NormalCase_hitung13jt/tahun'))
 
 WebUI.click(findTestObject('NormalCase_hitung13jt/15th'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('NormalCase_hitung13jt/button_Hitung'))
 

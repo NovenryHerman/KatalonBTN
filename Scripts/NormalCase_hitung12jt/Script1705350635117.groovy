@@ -25,14 +25,14 @@ WebUI.setText(findTestObject('NormalCase_hitung12jt/input_floating-label-field')
 
 WebUI.setText(findTestObject('NormalCase_hitung12jt/input_floating-label-field_1'), '1500000')
 
-WebUI.delay(2)
-
-WebUI.takeFullPageScreenshot()
-
 WebUI.click(findTestObject('NormalCase_hitung12jt/klikpenghasilantotal'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/NormalCase_hitung12jt/select_Jangka Waktu1 Tahun2 Tahun3 Tahun4 T_cf4447'), 
     '1', true)
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/NormalCase_hitung12jt/button_Hitung'))
 

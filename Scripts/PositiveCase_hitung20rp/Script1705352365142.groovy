@@ -39,3 +39,5 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.maximizeWindow()
 
+WebUI.closeBrowser()
+
